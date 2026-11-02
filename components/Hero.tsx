@@ -26,6 +26,7 @@ const HOME_SLIDES = [
  * SERVICE PAGES use this same Hero (one file for the whole site).
  * Each page file (app/services/<name>/page.tsx) sends its own
  * slides, service and texts through these props.
+ * md hasan al banna developer
  * Home page sends nothing = everything stays as it is above.
  * ============================================================ */
 export interface HeroProps {
