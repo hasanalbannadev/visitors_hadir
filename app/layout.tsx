@@ -26,8 +26,9 @@ export const metadata: Metadata = {
   openGraph: { type: 'website', url: SITE_URL, siteName: 'HADIR VISITORS', title: TITLE, description: DESCRIPTION, images: ['/og-image.png'] },
   twitter: { card: 'summary_large_image', title: TITLE, description: DESCRIPTION, images: ['/og-image.png'] },
   robots: { index: true, follow: true },
-  // Google Search Console: put the code in .env.local as NEXT_PUBLIC_GSC_VERIFICATION (no code change needed)
-  ...(process.env.NEXT_PUBLIC_GSC_VERIFICATION ? { verification: { google: process.env.NEXT_PUBLIC_GSC_VERIFICATION } } : {}),
+  verification: {
+    google: 'mV-4Gt4DUttlT9atEFxAICr64Kbu42dOjFoS-mN8Gf4',
+  },
 };
 
 /* Phone friendly + browser bar colour */
