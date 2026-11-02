@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   twitter: { card: 'summary_large_image', title: TITLE, description: DESCRIPTION, images: ['/og-image.png'] },
   robots: { index: true, follow: true },
   verification: {
-    google: 'mV-4Gt4DUttlT9atEFxAICr64Kbu42dOjFoS-mN8Gf4',
+    google: 'sLa8kpJzTggO5wxyO6vrNVqmq52oYeY3TOlI-yov9Yg',
   },
 };
 
