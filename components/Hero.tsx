@@ -119,11 +119,14 @@ export default function Hero({ slides, service, badge, title, text, points }: He
 
                 <div className="grid grid-cols-3 gap-4 pt-6 border-t border-gray-200/80 max-w-lg mx-auto lg:mx-0 text-center">
                   <div>
-                    <h3 className="text-2xl sm:text-3xl font-black text-[#d9a036]">178+</h3>
-                    <p className="text-[10px] text-gray-500 font-bold uppercase mt-1">
-                      {isAr ? 'مركبة ممتازة' : 'PREMIUM VEHICLES'}
-                    </p>
-                  </div>
+  <h3 className="text-2xl sm:text-3xl font-black text-[#d9a036]">
+    {isAr ? 'الدعم الفني' : 'SUPPORT'}
+  </h3>
+  <p className="text-[10px] text-gray-500 font-bold uppercase mt-1">
+    {isAr ? 'دعم على مدار الساعة' : '24/7 ASSISTANCE'}
+  </p>
+</div>
+
                   <div>
                     <h3 className="text-2xl sm:text-3xl font-black text-[#d9a036]">24/7</h3>
                     <p className="text-[10px] text-gray-500 font-bold uppercase mt-1">
