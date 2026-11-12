@@ -138,7 +138,7 @@ export default function BookingForm({ service }: { service?: string }) {
               {...reqProps}
               value={formData.fullName}
               onChange={handleInputChange}
-              placeholder={isAr ? 'جون الصباح' : 'John Al-Sabah'}
+              placeholder=""
               className="w-full px-3 py-2 text-xs bg-white border border-gray-200 rounded focus:outline-none focus:border-[#d9a036] text-gray-800 placeholder-gray-500"
             />
           </div>
@@ -153,7 +153,7 @@ export default function BookingForm({ service }: { service?: string }) {
               {...reqProps}
               value={formData.phone}
               onChange={handleInputChange}
-              placeholder="+965 9000 0000"
+              placeholder=""
               className="w-full px-3 py-2 text-xs bg-white border border-gray-200 rounded focus:outline-none focus:border-[#d9a036] text-gray-800 placeholder-gray-500"
             />
           </div>
